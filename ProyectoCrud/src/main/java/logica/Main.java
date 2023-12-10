@@ -16,11 +16,6 @@ public class Main {
         long numeroDeTelefono[] = new long[183];
         String mostrar;
         
-        //Probando cambios 
-        System.out.println("Hola");
-        System.out.println("hola mundo");
-        
-    
         while (aux1 == true) {
           
             mostrar = "Asientos disponibles";
