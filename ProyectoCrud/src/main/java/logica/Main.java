@@ -2,10 +2,13 @@
 package logica;
 
 import javax.swing.JOptionPane;
+import persistencia.ControladoraPersistencia;
 
 public class Main {
 
     public static void main(String[] args) {
+        
+        ControladoraPersistencia controlpersi = new ControladoraPersistencia();
         
         int opcionMenu, numeroAsientos, asientoAEeliminar = 0, buscar, confimacion = 0;
         boolean aux1 = true, aux2 = true, aux3 = true;
