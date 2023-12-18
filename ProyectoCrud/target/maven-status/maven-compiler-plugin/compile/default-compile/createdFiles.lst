@@ -1,9 +1,0 @@
-persistencia\PasajeroJpaController.class
-igu\Pantalla.class
-logica\Main.class
-persistencia\exceptions\NonexistentEntityException.class
-logica\Pasajero_.class
-persistencia\exceptions\PreexistingEntityException.class
-persistencia\ControladoraPersistencia.class
-logica\Pasajero.class
-persistencia\exceptions\IllegalOrphanException.class
