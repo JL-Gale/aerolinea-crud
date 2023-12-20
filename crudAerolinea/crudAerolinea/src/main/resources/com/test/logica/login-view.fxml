@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.igu.LoginController">
+    <left>
+        <AnchorPane prefHeight="400.0" prefWidth="230.0" style="-fx-background-color: #4D4D4D;" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="13.0" layoutY="373.0" text="Copyright (c). Todos los derechos reservados" textFill="WHITE">
+                    <font>
+                        <Font name="Roboto Medium" size="10.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="tirraImg" fitHeight="235.0" fitWidth="238.0" layoutX="-27.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" rotate="-64.4">
+                    <image>
+                        <Image url="@../../../../../../imagenes/pngwing.com.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="avionImg" fitHeight="100.0" fitWidth="89.0" layoutX="91.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" rotate="-57.0">
+                    <image>
+                        <Image url="@../../../../../../imagenes/klipartz.com.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="58.0" layoutY="219.0" text="Aerolinea" textFill="#fffbfb">
+                    <font>
+                        <Font name="Roboto Black" size="23.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #E7E9D4;" BorderPane.alignment="CENTER">
+            <children>
+                <TextField fx:id="usuarioTextField" layoutX="107.0" layoutY="113.0" prefHeight="29.0" prefWidth="226.0" promptText="Usuario">
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextField>
+                <PasswordField fx:id="contraseñaPasswordField" layoutX="107.0" layoutY="161.0" prefHeight="29.0" prefWidth="226.0" promptText="Contraseña">
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </PasswordField>
+                <Button fx:id="entrarButton" layoutX="82.0" layoutY="241.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="239.0" style="-fx-background-color: #4D4D4D;" text="Entrar" textFill="WHITE">
+                    <font>
+                        <Font name="Roboto Black" size="12.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="cancelarButton" layoutX="82.0" layoutY="299.0" mnemonicParsing="false" onAction="#cancelarButtOnOnAction" prefHeight="37.0" prefWidth="239.0" style="-fx-background-color: #4D4D4D;" text="Cancelar" textFill="WHITE">
+                    <font>
+                        <Font name="Roboto Black" size="12.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Label layoutX="52.0" layoutY="118.0" prefHeight="19.0" prefWidth="50.0" text="Usuario">
+                    <font>
+                        <Font size="13.0" />
+                    </font></Label>
+                <Label layoutX="37.0" layoutY="166.0" text="Contaseña">
+                    <font>
+                        <Font size="13.0" />
+                    </font></Label>
+                <Label layoutX="115.0" layoutY="52.0" prefHeight="23.0" prefWidth="141.0" text="Inicio de sección">
+                    <font>
+                        <Font name="Roboto Bold" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </right>
+</BorderPane>
